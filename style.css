@@ -1,0 +1,40 @@
+h1{
+    color: lightskyblue
+}
+
+*{
+        border:solid whitesmoke
+}
+
+.header{
+background-color: brown;
+display: flex;
+justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item{
+    display: flex;
+}
+
+p,h2{
+    text-align: center;
+}
+
+                 
